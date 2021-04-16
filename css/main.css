@@ -110,6 +110,10 @@ section a:focus {
   background-color: #bea59b;
 }
 
+section a:focus {
+  outline: .3rem solid #bea59b;
+}
+
 article {
   padding: 2rem;
 }
@@ -118,6 +122,10 @@ article a:hover,
 article a:focus {
   background-color: #522806;
   color: #fff;
+}
+
+article a:focus {
+  outline: .3rem solid #bea59b;
 }
 
 .card {
