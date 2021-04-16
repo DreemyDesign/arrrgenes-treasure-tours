@@ -56,6 +56,15 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover,
+nav a:focus {
+  background-color: #bea59b;
+}
+
+nav a:focus {
+  outline: #fff;
+}
+
 section {
   display: grid;
   grid-template-columns: 1fr;
@@ -63,6 +72,7 @@ section {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #000;
 }
 
 section img {
@@ -95,8 +105,19 @@ section a {
   text-decoration: none;
 }
 
+section a:hover,
+section a:focus {
+  background-color: #bea59b;
+}
+
 article {
   padding: 2rem;
+}
+
+article a:hover,
+article a:focus {
+  background-color: #522806;
+  color: #fff;
 }
 
 .card {
